@@ -8,3 +8,48 @@ body{
     background: #333434;
     color: #fff;
 }
+
+
+div.skill img{
+    background: #5f0079;
+    border-radius: 25px;
+}
+
+span.skill_broadblade{
+    font-size: 250%;
+    color: #fff;
+    top: 11.5%;
+    bottom: 77.5%;
+    align-content: center;
+    background: #5f0079;
+    border-left: 2px solid aqua;
+    border-bottom: 2px solid aqua;
+}
+
+span.skill_extermination_order{
+    font-size: 250%;
+    color: #fff;
+    top: 22.5%;
+    bottom: 66.5%;
+    align-content: center;
+    background: #5f0079;
+    border-left: 2px solid aqua;
+    border-bottom: 2px solid aqua;
+}
+
+span.skill_phantom_etching{
+    font-size: 250%;
+    color: #fff;
+    top: 33.5%;
+    bottom: 55.5%;
+    align-content: center;
+    background: #5f0079;
+    border-left: 2px solid aqua;
+    border-bottom: 2px solid aqua;
+}
+
+
+span{
+    position: absolute;
+    margin-left: 10px;
+}
