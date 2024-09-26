@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --border_rad_char: 25px;
+    --fusion_col: #f74d27;
+    --electro_col: #5f0079;
+    --glacio_col: #61f7ff;
+    --aero_col: #00ffc3;
+    --spectro_col: #e2ff2e;
+    --havoc_col: #91005e;
+}
+
+body{
+    background: #333434;
+    color: #fff;
+}
+
+nav{
+    background: #4269ff;
+    min-height: 30px;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fff;  
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav div{
+    font-weight: 500;
+    font-size: 150%;
+}
+
+nav div a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav div a:hover{
+    text-decoration: underline;
+}
+
+.characters{
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.characters .char_categ{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.characters .standard,.characters .limited,.characters .four_star{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+}
+
+.standard,.limited{
+    flex: 1;
+}
+
+.characters img{
+    border-radius: var(--border_rad_char);
+}
+
+.electro,.aero,.spectro,.glacio,.fusion,.havoc,.unknown{
+    border-radius: var(--border_rad_char);
+}
+
+.aero{
+    background: var(--aero_col);
+}
+
+.electro{
+    background: var(--electro_col);
+}
+
+.fusion{
+    background: var(--fusion_col);
+}
+
+.glacio{
+    background: var(--glacio_col);
+}
+
+.havoc{
+    background: var(--havoc_col);
+}
+
+.spectro{
+    background: var(--spectro_col);
+}
+
+.unknown{
+    background: linear-gradient(90deg,#f74d27,#5f0079,#61f7ff,#00ffc3,#e2ff2e,#91005e);
+}
+
+.test{
+    color: #f74d27;
+    color: #5f0079;
+    color: #61f7ff;
+    color: #00ffc3;
+    color: #e2ff2e;
+    color: #91005e;
+}
