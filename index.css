@@ -111,6 +111,6 @@ nav div a:hover{
     color: #91005e;
 }
 
-.four_star .char:hover,.standard .char:hover{
+.four_star .char:hover,.standard .char:hover, .limited .char:hover{
     border: 3px solid #ffffff;
 }
